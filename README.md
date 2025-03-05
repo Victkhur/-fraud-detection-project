@@ -42,13 +42,13 @@ Since accuracy alone is misleading for imbalanced data, we evaluated models usin
 
 ## 🔍 Feature Importance using SHAP
 To understand which features contribute most to fraud detection, we used **SHAP values**. The top fraud indicators were:
-- **V12, V14, and V17** (strong indicators of fraudulent behavior)
-- **Transaction Amount** (some fraudulent transactions had unusual amounts)
+- V4, V14, V8, and V12 have the most significant impact on fraud detection.
+- Time and Amount are less influential compared to the engineered features (V1-V28).
 
 ## 🚀 Installation & Running the Project
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/fraud-detection-project.git
+git clone https://github.com/Victkhur/fraud-detection-project.git
 cd fraud-detection-project
 ```
 
