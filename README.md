@@ -8,6 +8,8 @@ The dataset includes information about transactions made by credit cards in Sept
 - **Legitimate Transactions (Class 0):** 99.83%
 - **Fraudulent Transactions (Class 1):** 0.17%
 
+🔗 **[Credit Card Fraud Detection Dataset]("https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/data/creditcard.csv)**
+
 Since fraud cases are extremely rare, **handling imbalanced data** is a key part of this project.
 
 ## 🔍 Approach & Models Used
@@ -63,17 +65,6 @@ jupyter notebook
 ```
 Open the notebook and run all cells to execute the project.
 
-## 📂 Project Structure
-```
-fraud-detection-project/
-│── notebooks/           # Jupyter notebooks
-│── requirements.txt     # List of dependencies
-│── README.md            # Project overview
-```
-
-## 📂 Dataset
-If the dataset is too large, download it manually from Kaggle:  
-🔗 **[Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)**
 
 ## 📢 Contributing
 Feel free to contribute by submitting a pull request! 😊
